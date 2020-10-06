@@ -278,11 +278,33 @@ label {
     border-left: 1px solid grey;
     height: 1200px;
     position: absolute;
-    left: 15%;
+    left: 10%;
     margin-left: -3px;
     top: 0;
 }
 
 #container {
     max-width: 30%;
+}
+
+button {
+    margin-left: 40px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .vl {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        justify-content: left;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    label {
+        font-size: 10px;
+    }
 }
