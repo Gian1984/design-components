@@ -26,11 +26,11 @@
 <body>
 
     <div class="vl"></div>
-    <div class="container .flex-column mt-5 mb-5">
+    <div class="container col-md-12 mt-5 mb-5">
         <h2>Emergency contact and medical information</h2>
         <hr>
         <form>
-            <div class="form-row d-flex justify-content-start">
+            <div class="mobileform form-row d-flex justify-content-start">
                 <div class="col-2">
                     <label for="inputName">Name</label>
                     <input type="text" class="form-control">
@@ -62,7 +62,7 @@
             </div>
             <hr>
             <h4>Emergency contact</h4>
-            <div class="form-row">
+            <div class="mobileform form-row d-flex justify-content-start">
                 <div class="col-2">
                     <label for="inputName">Name</label>
                     <input type="text" class="form-control">
@@ -385,55 +385,51 @@
                 </div>
             </div>
 
-            <div class="form-row my-auto">
-                <div class="col-1 my-auto">
+            <div class="form-row my-auto d-flex">
+                <div class="mobilephone col-2 my-auto">
                     <label for="inputHomeNumber1">Home phone </label>
                     <input type="text" class="form-control">
                     <small id="passwordHelpBlock" class="form-text text-muted">
                     xxx
                     </small>
                 </div>
-                <div class="col-1 my-auto">
+                <div class="mobilephone col-2 my-auto ">
                     <label for="inputHomeNumber2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label>
                     <input type="text" class="form-control">
                     <small id="passwordHelpBlock" class="form-text text-muted">
                     xxx
                     </small>
                 </div>
-                <div class="col-1 my-auto">
+                <div class="mobilephone col-2 my-auto ">
                     <label for="inputHomeNumber3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label>
                     <input type="text" class="form-control">
                     <small id="passwordHelpBlock" class="form-text text-muted">
                     xxx
                     </small>
                 </div>
-                <div class="col-1"></div>
-                <div class="col-1"></div>
-                <div class="col-1"></div>
-                <div class="col-1 my-auto">
+
+                <div class="col-2 my-auto">
                     <label for="inputWorkNumber1">Work phone</label>
                     <input type="text" class="form-control my-auto">
                     <small id="passwordHelpBlock" class="form-text text-muted">
                     xxx
                     </small>
                 </div>
-                <div class="col-1 my-auto">
+                <div class="col-2 my-auto">
                     <label for="inputWorkNumber2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label>
                     <input type="text" class="form-control my-auto">
                     <small id="passwordHelpBlock" class="form-text text-muted">
                     xxx
                     </small>
                 </div>
-                <div class="col-1 my-auto">
+                <div class="col-2 my-auto">
                     <label for="inputWorkNumber3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label>
                     <input type="text" class="form-control my-auto">
                     <small id="passwordHelpBlock" class="form-text text-muted">
                     xxx
                     </small>
                 </div>
-                <div class="col-1"></div>
-                <div class="col-1"></div>
-                <div class="col-1"></div>
+
             </div>
             <hr>
             <h4>Medical information</h4>
@@ -445,12 +441,12 @@
                 </div>
             </div>
 
-            <div class="form-row">
-                <div class="col">
+            <div class="mobileform form-row d-flex justify-content-start">
+                <div class="col-6">
                     <label for="insuranceCompany">Insurance Company</label>
                     <input type="text" class="form-control">
                 </div>
-                <div class="col">
+                <div class="col-6">
                     <label for="policyNumber">Policy Number</label>
                     <input type="text" class="form-control">
                 </div>
@@ -487,14 +483,17 @@
                 <div class="col-1"></div>
                 <div class="col-1">
                 </div>
-
-
-
+                <div class="col-12">
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Allergies / Special Helth Consideration</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </div>
         </form>
 
         </div>
 
-        <button type="button" class="btn btn-outline-secondary btn-sm">Secondary</button>
+        <p><button type="button" class="btn btn-outline-secondary btn-sm">Secondary</button></p>
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
