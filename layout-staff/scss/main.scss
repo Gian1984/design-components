@@ -1,0 +1,48 @@
+            @import "../node_modules/bootstrap/scss/bootstrap";
+            @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Roboto:wght@100&display=swap');
+            #header {
+                height: 500px;
+                display: inline-block;
+                .card-title {
+                    font-size: 100px;
+                    vertical-align: middle;
+                    margin-top: 130px;
+                    font-family: 'Open Sans', sans-serif;
+                }
+                .card-text {
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: lighter;
+                }
+            }
+            
+            @media screen and (max-width: 1024px) {
+                #header {
+                    height: 300px;
+                    .card-title {
+                        font-size: 70px;
+                        vertical-align: middle;
+                        margin-top: auto;
+                        font-family: 'Open Sans', sans-serif;
+                    }
+                    .card-text {
+                        font-family: 'Roboto', sans-serif;
+                        font-weight: lighter;
+                    }
+                }
+            }
+            
+            @media screen and (max-width: 480px) {
+                #header {
+                    .card-title {
+                        font-size: 40px;
+                        vertical-align: middle;
+                        margin-top: auto;
+                        font-family: 'Open Sans', sans-serif;
+                    }
+                    .card-text {
+                        font-family: 'Roboto', sans-serif;
+                        font-weight: lighter;
+                    }
+                }
+            }
